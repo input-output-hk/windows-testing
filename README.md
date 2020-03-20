@@ -27,11 +27,20 @@ If you prefer, you can instead download an official Windows 10 ISO image for tes
 https://www.microsoft.com/en-gb/software-download/windows10ISO
 
 
+Instructions for those needing to Run GHC etc (Developers/Testers)
+
+
 You can provision GHC and other tools using the following Powershell script.
 
 https://github.com/input-output-hk/ouroboros-network/blob/master/scripts/install.ps1
 
-Github don't make downloads easy.  You may want to install Github Desktop to be able to download and run this script.
+Github don't make downloads easy.  You may want to install Github Desktop to be able to download and run this script.  Once downloaded, right-click on it and run it in Powershell.  You do want to change the Execution Policy to allow this.
+This will install chocolatey and then Cabal and GHC.  You can run cabal/ghc from the Command Prompt.
+
+There is a guide here on how to install GHC using chocolately.
+
+https://hub.zhox.com/posts/introducing-haskell-dev/ by Tamar (who maintains the chocolatey ghc package).
+hub.zhox.comhub.zhox.com
 
 
 If you are a bash user, you may find it useful to install the Windows Subsytem for Linux (WSL).  Type "install windows subsystem for linux" into the search box and follow the instructions.  I haven't yet figured out how to do this with the Microsoft pre-configured VM.  I think you probably need to download some other things first...
