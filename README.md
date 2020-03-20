@@ -14,9 +14,11 @@ Note that these VMs have 90 day limits, so it is sensible not to over-customise 
 
 https://www.virtualbox.org
 
-Just install `VirtualBox`, open the Windows 10 VM file that you have downloaded from Microsoft and after a while (about 10 minutes on my laptop) your Windows VM should be ready to use.  If you can't automatically open the VM file by e.g. double clicking it, the "Add Appliance" menu item does the same thing.  Having added the appliance, start the Virtual Machine using the button and log in when prompted.
+Just install `VirtualBox`, open the Windows 10 VM file that you have downloaded from Microsoft and after a while (about 10 minutes on my laptop) your Windows VM should be ready to use.  If you can't automatically open the VM file by e.g. double clicking it, the "Add Appliance" menu item does the same thing.  Having added the appliance, start the Virtual Machine using the button and log in when prompted. The Microsoft VM comes preinstalled with one user (IEUser), with a standard password `Passw0rd!`
 
-You will probably want to "Insert the Guest Additions CD" so that you can integrate the VM better with your host machine (the actual desktop/laptop etc.).  The Microsoft VM comes preinstalled with one user (IEUser), with a standard password `Passw0rd!`
+### "Guest Additions"
+You will probably want to "Insert the Guest Additions CD" so that you can integrate the VM better with your host machine (the actual desktop/laptop etc.).  This allows you to share devices, file systems, cut/paste between the VM and the host etc.
+This is a virtual CD that should automatically run.
 
 ### Activating the Virtual Machine
 Once you have logged in, type `command` into the Windows 10 search box, open up the
