@@ -19,11 +19,12 @@ You can then download the Windows version of Daedalus from
 
 https://daedaluswallet.io/#download
 
-and test and run it as a normal Windows user.
+and install, test and run it as a normal Windows user.  Take care to keep up to date with all security updates, and be careful about giving the VM access to your host file system.  You are running a live Windows machine that is connected to the Internet!
 
 
-You can also download an official Windows 10 ISO image for testing purposes and create your own Virtual Machine.  There is no need to activate it - the system will just nag you occasionally.  This will not time out, but it does take more effort to set up, so is only recommended if you are familiar with using VirtualBox.  This does give more choice about the version of Windows 10 (Pro, Pro N etc.), allows you to set up your own user names, and doesn't seem to
+If you prefer, you can instead download an official Windows 10 ISO image for testing purposes and create your own Virtual Machine.  There is no need to activate Windows in this case - the system will just nag you occasionally.  The installation will not time out, but it does take more effort to set up, so is only recommended if you are familiar with using VirtualBox.  This does give more choice about the version of Windows 10 (Pro, Pro N etc.), allows you to set up your own user names, and doesn't seem to be as restricted as the official Windows VM, so you may find it more useful if you are a developer.
 
+https://www.microsoft.com/en-gb/software-download/windows10ISO
 
 
 You can provision GHC and other tools using the following Powershell script.
