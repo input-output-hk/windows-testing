@@ -22,7 +22,7 @@ https://daedaluswallet.io/#download
 and install, test and run it as a normal Windows user.  Take care to keep up to date with all security updates, and be careful about giving the VM access to your host file system.  You are running a live Windows machine that is connected to the Internet!
 
 
-If you prefer, you can instead download an official Windows 10 ISO image for testing purposes and create your own Virtual Machine.  There is no need to activate Windows in this case - the system will just nag you occasionally.  The installation will not time out, but it does take more effort to set up, so is only recommended if you are familiar with using VirtualBox.  This does give more choice about the version of Windows 10 (Pro, Pro N etc.), allows you to set up your own user names, and doesn't seem to be as restricted as the official Windows VM, so you may find it more useful if you are a developer.
+If you prefer, you can instead download an official Windows 10 ISO image for testing purposes and create your own Virtual Machine.  There is no need to activate Windows in this case - the system will just nag you occasionally.  The installation will not time out, but it does take more effort to set up, so is only recommended if you are familiar with using VirtualBox.  This does give more choice about the Windows 10 edition (Pro, Pro N etc.), allows you to set up your own user names, and doesn't seem to be as restricted as the official Windows VM, so you may find it more useful if you are a developer.
 
 https://www.microsoft.com/en-gb/software-download/windows10ISO
 
@@ -31,5 +31,7 @@ You can provision GHC and other tools using the following Powershell script.
 
 https://github.com/input-output-hk/ouroboros-network/blob/master/scripts/install.ps1
 
+Github don't make downloads easy.  You may want to install Github Desktop to be able to download and run this script.
 
-If you are a bash user, you may find it useful to install the Windows Subsytem for Linux (WSL).  Type "install windows subsystem for linux" into the search box and follow the instructions.
+
+If you are a bash user, you may find it useful to install the Windows Subsytem for Linux (WSL).  Type "install windows subsystem for linux" into the search box and follow the instructions.  I haven't yet figured out how to do this with the Microsoft pre-configured VM.  I think you probably need to download some other things first...
