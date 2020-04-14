@@ -66,7 +66,7 @@ https://hub.zhox.com/posts/introducing-haskell-dev/
 
 This is writtem by Tamar (who maintains the chocolatey ghc package)
 
-hub.zhox.comhub.zhox.com
+https://hub.zhox.com
 
 ### Windows Subsystem for Linux
 
